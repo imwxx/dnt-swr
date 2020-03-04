@@ -1,0 +1,14 @@
+VerfKey: swr_dnt_parse
+DbInfo: repopool:%$&4567rty$%&*()FG@tcp(127.0.0.1:3306)/repopool?charset=utf8
+RedisHost: 127.0.0.1
+RedisPort: 6379
+HWDomain: swr.cn-north-4.myhuaweicloud.com
+Builder:
+ - 192.168.1.108
+ - 192.168.20.187
+ - 192.168.21.130
+KSNSMap:
+ - hellowxx
+NamespaceMap:
+- HarborRepo: hello
+  SwrRepo: hello
