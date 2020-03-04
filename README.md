@@ -8,7 +8,7 @@ processor:
     get job from redis and sync job by processor, the processor dep more machines where it can connect to redis, make rsync job quickly
 ```
 ### 1. build it
-mkdir /data/gopath/src
+mkdir -p /data/gopath/src
 export GOPATH="/data/gopath/"
 cd /data/gopath/src/ && git clone https://github.com/imwxx/dnt-swr && cd dnt-swr && bash build.sh
 then you can use www.tar to deploy it.
